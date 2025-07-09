@@ -1,7 +1,9 @@
 from itertools import product, combinations_with_replacement
 import concurrent.futures
+import sys 
 
 if __name__ == "__main__":
+    
 
     numeros = range(1, 10)
     operadores = ['+', '-', '*', '/']
